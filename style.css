@@ -1,0 +1,241 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+
+.top_header{
+    background-color: #cc1c27;
+    height: 10px;
+
+}
+.logo{
+    padding: 20px;
+    width: 100%;
+}
+.right_header{
+    font-size: 14px;
+    color: white;
+    background-color: #cc1c27;
+    padding-top: 43px;
+    padding-bottom: 67px;
+    height: 100px;
+    text-align: center;
+
+}
+.contact_us{
+    
+    background-color: black !important;
+    height: 120px;
+
+
+}
+.connect_letter_box{
+    padding-top:24px;
+
+}
+.fill{
+    background-color: #cc1c27;
+    height: 120px;
+
+}
+.in{
+    width: 50px;
+}
+.form_element{
+    width: 100%;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    margin-top: 20px;
+    padding: 0 0 0 4px;
+
+}
+.form_elements{
+    width: 100%;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    margin-top: 10px;
+    padding: 0 0 0 4px;
+
+}
+.f{
+    padding: 0 5px !important;
+}
+.submit_but{
+    background-color: rgba(0,0,0,0.3);
+    border: none;
+    padding: 17px 30px;
+    font-size: 24px;
+    border-radius: 4px;
+    margin-top: 22px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.notice{
+    background-image: url(image/cinema-notice.jpg);
+    background-color: #e8e8e8;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 530px;
+
+}
+.notice_box{
+    background-color: white;
+    height: 460px;
+    margin-top: 28px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 #ccc;
+    margin-left: 20px;
+
+}
+.not_box_left{
+    padding: 10px 0;
+
+}
+.degree{
+    font-size: 18px;
+    font-weight: 600;
+     margin: 0;
+}
+.duration{
+    padding:5px 0; 
+    font-size: 16px; 
+    color: white;
+     background-color: #ff0000;  
+    width:94%;
+}
+.box{
+    background-color: #ebebeb;
+    padding: 10px 0 1px 0;
+    border-radius: 5px;
+    margin: 2px 0 8px 0;
+}
+.bodb{
+    background: url(image/h1_under_red.jpg) no-repeat center bottom;
+}
+.bod{
+    text-align: center;
+    font-weight: bold;
+    font-size: 38px;
+    padding: 10px 0 0 0;
+}
+.board_box{
+    margin: 50px 0 0 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 #999;
+    background: #FFF;
+}
+.name_box{
+    padding: 0 0 5px 0;
+}
+.name{
+    font-weight: bold;
+    font-size: 21px;
+    color: #000000;
+}
+.profession{
+    font-weight: bold;
+    font-size: 14px;
+    color: #d21e2b;
+}
+.para{
+    
+    color: #3a3a3a;
+    line-height: 25px;
+    font-size: 14px;
+    padding: 20px 0 0 0;
+}
+.board_box_2{
+    margin: 20px 0 40px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 #999;
+    background: #FFF;
+    
+}
+.para2{
+    font-size: 14px;
+    color: #3a3a3a;
+    margin:20px 0;
+}
+.para3{
+    color: #3a3a3a;
+    line-height: 25px;
+    font-size: 14px;
+    
+}
+.icon{
+    color: #cc1c27;
+}
+.letter{
+    font-size: 14px;
+    color: #3a3a3a;
+}
+
+.space{
+    margin: 7px;
+}
+/* Youtube video start*/
+.youtube {
+    background-color: #000;
+    margin-bottom: 30px;
+    position: relative;
+    padding-top: 56.25%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.youtube img {
+    width: 100%;
+    top: -16.84%;
+    left: 0;
+    opacity: 0.7;
+}
+.youtube .play-button {
+    width: 90px;
+    height: 60px;
+    background-color: #ff0000;
+    box-shadow: 0 0 30px rgba( 0,0,0,0.6 );
+    z-index: 1;
+    opacity: 0.8;
+    border-radius: 6px;
+}
+.youtube .play-button:before {
+    content: "";
+    border-style: solid;
+    border-width: 15px 0 15px 26.0px;
+    border-color: transparent transparent transparent #fff;
+}
+.youtube img,
+.youtube .play-button {
+    cursor: pointer;
+}
+.youtube img,
+.youtube iframe,
+.youtube .play-button,
+.youtube .play-button:before {
+    position: absolute;
+}
+.youtube .play-button,
+.youtube .play-button:before {
+    top: 50%;
+    left: 50%;
+    transform: translate3d( -50%, -50%, 0 );
+}
+.youtube iframe {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+/* Youtube video end*/
